@@ -1,0 +1,2 @@
+from prismai.tools.literal import localizar_trecho_literal as localizar_trecho_literal
+from prismai.tools.sufficiency import avaliar_suficiencia as avaliar_suficiencia

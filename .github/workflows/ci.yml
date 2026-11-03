@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+    paths: ["prismai/**"]
+  pull_request:
+    paths: ["prismai/**"]
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: prismai
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+      - run: uv sync --all-extras
+      - run: uv run ruff check src tests
+      - run: uv run pytest tests/unit -v -m "not slow"
+
+  integration:
+    runs-on: ubuntu-latest
+    needs: unit
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: prismai_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 5
+    env:
+      DATABASE_URL_TEST: postgresql+psycopg://postgres:postgres@localhost:5432/prismai_test
+      PRISMAI_DATABASE_URL: postgresql+psycopg://postgres:postgres@localhost:5432/prismai_test
+      PRISMAI_DATABASE_URL_ADMIN: postgresql+psycopg://postgres:postgres@localhost:5432/prismai_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+      - run: uv sync --all-extras
+      - run: uv run alembic upgrade head
+      - run: uv run pytest tests/integration tests/contract -v -m "not slow"
+
+  eval:
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    needs: integration
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+      - run: uv sync --all-extras
+      - run: uv run pytest tests/eval -v -s

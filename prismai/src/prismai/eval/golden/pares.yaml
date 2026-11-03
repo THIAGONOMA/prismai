@@ -1,0 +1,62 @@
+Par1_pais:
+  A:
+    id: PAR1_A
+    titulo: "Effects of an LLM-Based Tutor on Undergraduate Statistics Performance"
+    abstract: >-
+      This quasi-experimental study evaluated the impact of an LLM-based tutoring system on the
+      academic performance of 120 undergraduate students enrolled in Statistics I at a Brazilian
+      federal university. The intervention group (n=60) used the LLM tutor for homework support
+      over one semester, while the control group (n=60) received traditional instruction only.
+      Final exam scores were compared using ANCOVA. The intervention group scored significantly
+      higher (M=7.1, SD=1.2) than the control group (M=6.0, SD=1.5), p<0.01, d=0.82. Results
+      suggest that LLM-based tutoring improves undergraduate statistics performance.
+  B:
+    id: PAR1_B
+    titulo: "Effects of an LLM-Based Tutor on Undergraduate Statistics Performance"
+    abstract: >-
+      This quasi-experimental study evaluated the impact of an LLM-based tutoring system on the
+      academic performance of 120 undergraduate students enrolled in Statistics I at a U.S. state
+      university. The intervention group (n=60) used the LLM tutor for homework support over one
+      semester, while the control group (n=60) received traditional instruction only. Final exam
+      scores were compared using ANCOVA. The intervention group scored significantly higher
+      (M=7.1, SD=1.2) than the control group (M=6.0, SD=1.5), p<0.01, d=0.82. Results suggest
+      that LLM-based tutoring improves undergraduate statistics performance.
+
+Par2_registro:
+  A:
+    id: PAR2_A
+    titulo: "Impact of a Large Language Model Tutor on Undergraduate Chemistry Grades"
+    abstract: >-
+      We conducted a randomized controlled trial with 150 undergraduate chemistry students. The
+      treatment group (n=75) used an LLM-based tutor for weekly problem-solving sessions, while
+      the control group (n=75) attended standard recitations. Final course grades on a 4.0 GPA
+      scale were the primary outcome. The treatment group achieved a mean GPA of 3.0 compared to
+      2.6 in the control group (p=0.01, d=0.45). We conclude that LLM tutoring can meaningfully
+      improve undergraduate chemistry grades.
+  B:
+    id: PAR2_B
+    titulo: "Impact of a Large Language Model Tutor on Undergraduate Chemistry Grades"
+    abstract: >-
+      We have conducted randomized controlled trial with 150 undergraduate chemistry students.
+      Treatment group (n=75) has used LLM-based tutor for weekly problem-solving sessions, while
+      control group (n=75) attended standard recitations. Final course grades on 4.0 GPA scale
+      were primary outcome. Treatment group achieved mean GPA of 3.0 compared to 2.6 in control
+      group (p=0.01, d=0.45). We conclude that LLM tutoring can meaningfully improve undergraduate
+      chemistry grades.
+
+hedging_words:
+  - "pode"
+  - "sugere"
+  - "parece"
+  - "nao esta claro"
+  - "possivelmente"
+  - "may"
+  - "might"
+  - "suggests"
+  - "appears"
+  - "unclear"
+  - "possibly"
+  - "it is possible"
+  - "it seems"
+  - "could be"
+  - "we cannot confirm"

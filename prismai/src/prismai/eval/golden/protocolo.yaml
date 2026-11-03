@@ -1,0 +1,16 @@
+pergunta: "Tutores baseados em LLM melhoram o desempenho acadêmico de alunos de graduação em comparação ao ensino sem tutor de IA?"
+P: "alunos de graduação"
+I: "tutor ou chatbot baseado em LLM (large language model)"
+C: "ensino tradicional ou ensino sem tutor de IA"
+O: "desempenho acadêmico (nota, aprovação ou retenção)"
+desenho: "estudo empírico (ensaio, quasi-experimento ou estudo observacional com desfecho mensurado). Excluir revisão de literatura, opinião e editorial."
+inclusao:
+  - "O estudo envolve alunos de graduação."
+  - "A intervenção usa um tutor ou chatbot baseado em LLM."
+  - "O desfecho inclui alguma medida de desempenho acadêmico."
+  - "O estudo é empírico, com dados coletados."
+exclusao:
+  - "População que não seja graduação (ensino médio, pós-graduação, profissionais)."
+  - "Intervenção que não envolve LLM (tutoria humana, software não-IA)."
+  - "Desfecho que não inclui desempenho acadêmico (apenas satisfação, percepção, usabilidade)."
+  - "Tipo de publicação: revisão, meta-análise, editorial, opinião ou carta."

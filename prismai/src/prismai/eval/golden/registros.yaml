@@ -1,0 +1,122 @@
+- id: R01
+  titulo: "Effects of a GPT-Based Tutoring System on Undergraduate Calculus Performance"
+  abstract: >-
+    This quasi-experimental study evaluated the impact of a GPT-based tutoring chatbot on the
+    academic performance of 120 undergraduate students enrolled in Calculus I at a Brazilian
+    university. Students in the intervention group used the chatbot for homework support over one
+    semester, while the control group received traditional instruction only. Final exam scores were
+    compared using ANCOVA. The intervention group scored significantly higher (M=7.2, SD=1.1) than
+    the control group (M=6.1, SD=1.4), p<0.01. The results suggest that LLM-based tutoring can
+    improve undergraduate calculus performance.
+
+- id: R02
+  titulo: "Impacto de tutoria tradicional presencial no desempenho de alunos do ensino médio em matemática"
+  abstract: >-
+    Este ensaio controlado randomizado investigou o efeito da tutoria presencial conduzida por
+    monitores humanos sobre o desempenho em matemática de 200 alunos do ensino médio. O grupo
+    intervenção recebeu tutoria semanal por 12 semanas; o grupo controle seguiu o currículo regular.
+    As notas finais indicaram melhora significativa no grupo intervenção (p=0.003). Nenhuma
+    tecnologia de inteligência artificial foi utilizada no estudo.
+
+- id: R03
+  titulo: "Student Satisfaction with an AI Chatbot in an Undergraduate Writing Course"
+  abstract: >-
+    We surveyed 85 undergraduate students who used an LLM-powered writing assistant during a
+    one-semester English composition course. The survey measured satisfaction, perceived usefulness,
+    and ease of use on a 5-point Likert scale. Results showed high satisfaction (M=4.3) and
+    perceived usefulness (M=4.1). No academic performance data were collected; the study focused
+    exclusively on student perceptions and attitudes toward the tool.
+
+- id: R04
+  titulo: "Using ChatGPT as a Study Companion: A Pilot with Undergraduate Biology Students"
+  abstract: >-
+    In this pilot study, 45 undergraduate biology students used ChatGPT as a study companion for
+    exam preparation over four weeks. Pre- and post-test scores on a standardized biology knowledge
+    assessment were compared. The mean score increased from 62% to 71% (p=0.02). Students reported
+    that the chatbot helped clarify concepts and generate practice questions. Limitations include
+    the small sample size and lack of a control group.
+
+- id: R05
+  titulo: "Abstract Não Disponível"
+  abstract: ""
+
+- id: R06
+  titulo: "The Future of AI Tutors in Higher Education: An Editorial Perspective"
+  abstract: >-
+    This editorial discusses the potential of large language models to transform tutoring in higher
+    education. We argue that LLM-based tutors could provide personalized feedback at scale, but
+    raise concerns about academic integrity, over-reliance, and equity. No empirical data are
+    presented. We call for rigorous studies comparing LLM tutors with traditional instruction using
+    controlled designs and academic performance outcomes.
+
+- id: R07
+  titulo: "LLM-Assisted Homework and Exam Scores in Introductory Physics: A Multi-Site Study"
+  abstract: >-
+    This multi-site quasi-experimental study investigated the effect of an LLM-assisted homework
+    platform on exam scores in introductory physics courses across three universities. A total of
+    540 undergraduate students participated: 280 used the LLM platform and 260 followed the
+    standard homework process. The LLM group showed higher exam scores (Cohen's d=0.35, p<0.001).
+    Subgroup analysis revealed stronger effects for students with lower baseline GPAs. The findings
+    indicate that LLM-assisted homework can improve physics performance among undergraduates,
+    particularly for at-risk students.
+
+- id: R08
+  titulo: "Chatbots baseados em IA para treinamento corporativo: estudo com profissionais de vendas"
+  abstract: >-
+    Este estudo avaliou o uso de chatbots baseados em LLM para treinamento de 150 profissionais de
+    vendas em uma empresa multinacional. Os participantes usaram o chatbot para simulações de
+    atendimento por 8 semanas. O desempenho foi medido por taxa de conversão de vendas
+    pós-treinamento. Os resultados mostraram aumento de 12% na taxa de conversão (p=0.01).
+    Conclui-se que LLM pode ser eficaz em treinamento corporativo.
+
+- id: R09
+  titulo: "Exploring the Use of Language Models in Undergraduate Computer Science Education"
+  abstract: >-
+    This mixed-methods study explored how undergraduate computer science students used a language
+    model assistant during programming assignments. Quantitative data included assignment grades and
+    course completion rates. Qualitative data came from interviews with 20 students. The language
+    model was described as 'a coding assistant powered by recent AI advances' but the specific
+    technology was not named. Assignment grades showed no significant difference between users and
+    non-users (p=0.34), though interview data suggested students valued the tool for debugging.
+
+- id: R10
+  titulo: "GPT-4 como Tutor de Estatística: Notas e Retenção em Cursos de Graduação"
+  abstract: >-
+    Estudo quasi-experimental com 180 alunos de graduação em estatística de duas universidades
+    brasileiras. O grupo intervenção (n=95) teve acesso a um tutor baseado em GPT-4 para resolução
+    de exercícios. O grupo controle (n=85) usou material didático tradicional. Ao final do semestre,
+    o grupo intervenção apresentou notas médias superiores (7.8 vs 6.9, p=0.004) e menor taxa de
+    reprovação (8% vs 18%, p=0.03). Os resultados sugerem que tutores baseados em LLM podem
+    melhorar tanto notas quanto retenção na graduação.
+
+- id: R11
+  titulo: "An LLM Tutor for Undergraduate Chemistry: Impact on Final Grades"
+  abstract: >-
+    We conducted a randomized controlled trial with 200 undergraduate chemistry students. The
+    treatment group (n=102) used an LLM-based tutor for weekly problem-solving sessions, while the
+    control group (n=98) attended standard recitations. Final course grades (GPA scale) were the
+    primary outcome. The treatment group achieved a mean GPA of 3.1 compared to 2.7 in the control
+    group (p=0.008). Effect size was moderate (d=0.42). We conclude that LLM tutoring can
+    meaningfully improve undergraduate chemistry grades.
+
+- id: R12
+  titulo: "Can AI Help Students Learn? Preliminary Observations from a Pilot Program"
+  abstract: >-
+    This brief report describes a pilot program at a community college where an AI-based tool was
+    made available to students in several courses. The report provides anecdotal observations from
+    instructors and a few student quotes. No systematic data collection was performed. The authors
+    note that 'some students seemed to benefit' but acknowledge that without formal assessment, no
+    conclusions about academic performance can be drawn.
+
+- id: R13
+  titulo: "Impacto de Tutor Baseado em LLM no Desempenho Academico de Alunos de Graduacao Noturno em Calculo I: Estudo em um Instituto Federal Brasileiro"
+  abstract: >-
+    Este estudo quasi-experimental avaliou o impacto de um tutor baseado em modelo de linguagem
+    grande (LLM) no desempenho academico de 60 alunos do curso noturno de Engenharia de Producao
+    do Instituto Federal do Espirito Santo, campus Cachoeiro de Itapemirim. O grupo intervencao
+    (n=30) utilizou o tutor LLM para resolucao de exercicios de Calculo I durante um semestre. O
+    grupo controle (n=30) seguiu apenas com o material didatico tradicional. As notas finais foram
+    comparadas por teste t para amostras independentes. O grupo intervencao obteve media 6.8
+    (DP=1.3) contra 5.9 (DP=1.5) do controle (p=0.01, d=0.63). A taxa de aprovacao foi 73% no
+    grupo intervencao contra 53% no controle (p=0.04). Conclui-se que tutores baseados em LLM
+    podem melhorar o desempenho e a aprovacao de graduandos noturnos em Calculo I.

@@ -1,0 +1,94 @@
+- id: T01
+  registro_id: R01
+  tipo: "normal incluir"
+  verificacao: auto
+  esperado: include
+  tem_desfecho_academico: true
+
+- id: T02
+  registro_id: R02
+  tipo: "excluir população e intervenção"
+  verificacao: auto
+  esperado: exclude
+  criterio_violado: ["população", "intervenção"]
+  tem_desfecho_academico: true
+
+- id: T03
+  registro_id: R03
+  tipo: "excluir desfecho"
+  verificacao: auto
+  esperado: exclude
+  criterio_violado: ["desfecho"]
+  tem_desfecho_academico: false
+
+- id: T04
+  registro_id: R04
+  tipo: "normal incluir"
+  verificacao: auto
+  esperado: include
+  tem_desfecho_academico: true
+
+- id: T05
+  registro_id: R05
+  tipo: "informação ausente"
+  verificacao: auto
+  esperado: uncertain
+  tem_desfecho_academico: null
+
+- id: T06
+  registro_id: R06
+  tipo: "excluir desenho"
+  verificacao: auto
+  esperado: exclude
+  criterio_violado: ["desenho"]
+  tem_desfecho_academico: false
+
+- id: T07
+  registro_id: R07
+  tipo: "normal incluir"
+  verificacao: auto
+  esperado: include
+  tem_desfecho_academico: true
+
+- id: T08
+  registro_id: R08
+  tipo: "excluir população"
+  verificacao: auto
+  esperado: exclude
+  criterio_violado: ["população"]
+  tem_desfecho_academico: true
+
+- id: T09
+  registro_id: R09
+  tipo: "ambíguo"
+  verificacao: manual
+  nota: "A tecnologia não é nomeada como LLM."
+
+- id: T10
+  registro_id: R10
+  tipo: "normal incluir"
+  verificacao: auto
+  esperado: include
+  tem_desfecho_academico: true
+
+- id: T11
+  registro_id: R11
+  tipo: "normal incluir (inglês)"
+  verificacao: auto
+  esperado: include
+  tem_desfecho_academico: true
+
+- id: T12
+  registro_id: R12
+  tipo: "informação ausente / proxy"
+  verificacao: auto
+  esperado: uncertain
+  aceitos: ["exclude"]
+  tem_desfecho_academico: false
+
+- id: T15
+  registro_id: R13
+  tipo: "perfil menos usual (BR, noturno, portugues)"
+  verificacao: auto
+  esperado: include
+  tem_desfecho_academico: true
